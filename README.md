@@ -58,7 +58,7 @@ For a complete list of supported devices, check the [DeviceScreenSizes](Sources/
 
 ## License
 
-`ScreenSizeSim` is licensed under the MIT License. See the [LICENSE](https://github.com/ooow/ScreenSizeSim/blob/main/LICENSE) file for more information.
+`ScreenSizeSim` is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contributing
 

@@ -29,6 +29,7 @@
 		DFE5BBF72C77B8EE00C9B681 /* DeviceScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScreenSize.swift; sourceTree = "<group>"; };
 		DFE5BBF92C77C41400C9B681 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		DFE5BBFF2C77C78D00C9B681 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DFE5BC262C77D03400C9B681 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		DFE5BBE02C77B19D00C9B681 = {
 			isa = PBXGroup;
 			children = (
+				DFE5BC262C77D03400C9B681 /* LICENSE */,
 				DFE5BBFF2C77C78D00C9B681 /* README.md */,
 				DFE5BBF92C77C41400C9B681 /* Package.swift */,
 				DFE5BC202C77CDB800C9B681 /* Sources */,
