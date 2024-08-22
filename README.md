@@ -54,7 +54,7 @@ This will simulate the screen size of an iPhone 12 Pro Max for the wrapped conte
 - iPhone 13/14/15 series
 - iPad Mini, iPad Air, iPad Pro series
 
-For a complete list of supported devices, check the [DeviceScreenSizes](https://github.com/ooow/ScreenSizeSim/blob/main/Sources/ScreenSizeSim/DeviceScreenSizes.swift) file in this repository.
+For a complete list of supported devices, check the [DeviceScreenSizes](Sources/ScreenSizeSim/DeviceScreenSize.swift) file in this repository.
 
 ## License
 
