@@ -25,7 +25,7 @@ public struct ScreenContainer<Content: View>: View {
   /// - Parameters:
   ///   - screenSize: The desired screen size for the container.
   ///   - content: A closure that returns the content view to be displayed.
-  init(_ screenSize: CGSize, @ViewBuilder content: () -> Content) {
+  public init(_ screenSize: CGSize, @ViewBuilder content: () -> Content) {
     self.screenSize = screenSize
     self.content = content()
   }
