@@ -12,7 +12,7 @@ import SwiftUI
 ///     YourContentView()
 /// }
 /// ```
-struct ScreenContainer<Content: View>: View {
+public struct ScreenContainer<Content: View>: View {
 
   /// The content view to be displayed within the `ScreenContainer`.
   private let content: Content

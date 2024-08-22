@@ -5,7 +5,7 @@ import CoreGraphics
 /// The `Device` structure includes static properties representing the screen sizes of
 /// common iPhone and iPad models. The sizes are defined in points, which represent the
 /// logical resolution of the screen, independent of the pixel density.
-struct DeviceScreenSize {
+public struct DeviceScreenSize {
 
   // MARK: - iPhones
 
