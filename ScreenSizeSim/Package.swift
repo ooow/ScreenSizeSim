@@ -16,9 +16,6 @@ let package = Package(
   targets: [
     .target(
       name: "ScreenSizeSim",
-      dependencies: []),
-    .testTarget(
-      name: "ScreenSizeSimTests",
-      dependencies: ["ScreenSizeSim"]),
+      dependencies: [])
   ]
 )
