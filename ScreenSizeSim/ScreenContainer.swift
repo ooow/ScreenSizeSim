@@ -8,7 +8,7 @@ import SwiftUI
 ///
 /// Example usage:
 /// ```
-/// ScreenContainer(Device.iPhone12ProMax) {
+/// ScreenContainer(DeviceScreenSize.iPhone12ProMax) {
 ///     YourContentView()
 /// }
 /// ```
