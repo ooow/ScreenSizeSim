@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DFE5BBED2C77B19D00C9B681 /* ScreenContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5BBEC2C77B19D00C9B681 /* ScreenContainer.swift */; };
-		DFE5BBF82C77B8EE00C9B681 /* DeviceScreenSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5BBF72C77B8EE00C9B681 /* DeviceScreenSizes.swift */; };
+		DFE5BBF82C77B8EE00C9B681 /* DeviceScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE5BBF72C77B8EE00C9B681 /* DeviceScreenSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,9 @@
 /* Begin PBXFileReference section */
 		DFE5BBE92C77B19D00C9B681 /* libScreenSizeSim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScreenSizeSim.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFE5BBEC2C77B19D00C9B681 /* ScreenContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenContainer.swift; sourceTree = "<group>"; };
-		DFE5BBF72C77B8EE00C9B681 /* DeviceScreenSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScreenSizes.swift; sourceTree = "<group>"; };
+		DFE5BBF72C77B8EE00C9B681 /* DeviceScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScreenSize.swift; sourceTree = "<group>"; };
 		DFE5BBF92C77C41400C9B681 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		DFE5BBFF2C77C78D00C9B681 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +45,7 @@
 		DFE5BBE02C77B19D00C9B681 = {
 			isa = PBXGroup;
 			children = (
+				DFE5BBFF2C77C78D00C9B681 /* README.md */,
 				DFE5BBF92C77C41400C9B681 /* Package.swift */,
 				DFE5BBEB2C77B19D00C9B681 /* ScreenSizeSim */,
 				DFE5BBEA2C77B19D00C9B681 /* Products */,
@@ -62,7 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				DFE5BBEC2C77B19D00C9B681 /* ScreenContainer.swift */,
-				DFE5BBF72C77B8EE00C9B681 /* DeviceScreenSizes.swift */,
+				DFE5BBF72C77B8EE00C9B681 /* DeviceScreenSize.swift */,
 			);
 			path = ScreenSizeSim;
 			sourceTree = "<group>";
@@ -126,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFE5BBED2C77B19D00C9B681 /* ScreenContainer.swift in Sources */,
-				DFE5BBF82C77B8EE00C9B681 /* DeviceScreenSizes.swift in Sources */,
+				DFE5BBF82C77B8EE00C9B681 /* DeviceScreenSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
