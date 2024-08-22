@@ -47,7 +47,7 @@
 			children = (
 				DFE5BBFF2C77C78D00C9B681 /* README.md */,
 				DFE5BBF92C77C41400C9B681 /* Package.swift */,
-				DFE5BBEB2C77B19D00C9B681 /* ScreenSizeSim */,
+				DFE5BC202C77CDB800C9B681 /* Sources */,
 				DFE5BBEA2C77B19D00C9B681 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +67,14 @@
 				DFE5BBF72C77B8EE00C9B681 /* DeviceScreenSize.swift */,
 			);
 			path = ScreenSizeSim;
+			sourceTree = "<group>";
+		};
+		DFE5BC202C77CDB800C9B681 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DFE5BBEB2C77B19D00C9B681 /* ScreenSizeSim */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
