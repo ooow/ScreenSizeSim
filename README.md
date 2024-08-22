@@ -36,7 +36,7 @@ To use `ScreenSizeSim`, wrap your content view with the `ScreenContainer` view a
 ```swift
 import ScreenSizeSim
 
-ScreenContainer(Device.iPhone12ProMax) {
+ScreenContainer(DeviceScreenSize.iPhone12ProMax) {
     YourContentView()
 }
 ```
