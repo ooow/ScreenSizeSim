@@ -44,6 +44,7 @@
 		DFE5BBE02C77B19D00C9B681 = {
 			isa = PBXGroup;
 			children = (
+				DFE5BBF92C77C41400C9B681 /* Package.swift */,
 				DFE5BBEB2C77B19D00C9B681 /* ScreenSizeSim */,
 				DFE5BBEA2C77B19D00C9B681 /* Products */,
 			);
@@ -62,7 +63,6 @@
 			children = (
 				DFE5BBEC2C77B19D00C9B681 /* ScreenContainer.swift */,
 				DFE5BBF72C77B8EE00C9B681 /* DeviceScreenSizes.swift */,
-				DFE5BBF92C77C41400C9B681 /* Package.swift */,
 			);
 			path = ScreenSizeSim;
 			sourceTree = "<group>";
