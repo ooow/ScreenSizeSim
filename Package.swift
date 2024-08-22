@@ -14,8 +14,7 @@ let package = Package(
       targets: ["ScreenSizeSim"]),
   ],
   targets: [
-    .target(
-      name: "ScreenSizeSim",
-      path: "ScreenSizeSim")
+    .target(name: "ScreenContainer", path: "ScreenSizeSim/ScreenContainer"),
+    .target(name: "DeviceScreenSize", path: "ScreenSizeSim/DeviceScreenSize"),
   ]
 )
