@@ -14,6 +14,6 @@ let package = Package(
       targets: ["ScreenSizeSim"]),
   ],
   targets: [
-    .target(name: "ScreenSizeSim", dependencies=[]),
+    .target(name: "ScreenSizeSim", dependencies: []),
   ]
 )
