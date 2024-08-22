@@ -30,7 +30,7 @@ public struct ScreenContainer<Content: View>: View {
     self.content = content()
   }
 
-  var body: some View {
+  public var body: some View {
     content
       .frame(width: screenSize.width, height: screenSize.height) // Sets the frame of the content to the target screen size.
       .onAppear {
