@@ -2,6 +2,12 @@
 
 **ScreenSizeSim** is a lightweight Swift library that allows developers to simulate different screen sizes within their iOS apps. This tool is particularly useful for UI testing, layout adjustments, and ensuring that your app's design works seamlessly across various Apple devices.
 
+![GitHub stars](https://img.shields.io/github/stars/ooow/ScreenSizeSim.svg?style=social&label=Star&maxAge=2592000)
+![GitHub forks](https://img.shields.io/github/forks/ooow/ScreenSizeSim.svg?style=social&label=Fork)
+![License](https://img.shields.io/github/license/ooow/ScreenSizeSim.svg)
+
+![screensizesim_example](https://github.com/user-attachments/assets/f9b2aee8-f1fd-4a58-bab8-29c00b4ae8ce)
+
 ## Features
 
 - Simulate various iPhone and iPad screen sizes.
@@ -12,13 +18,13 @@
 
 ### Swift Package Manager
 
-To integrate `ScreenSizeSim` into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`.
+To integrate `ScreenSizeSim` into your Xcode project using Swift Package Manager:
 
-```swift
-dependencies: [
-    .package(url: "https://github.com/ooow/ScreenSizeSim.git", .upToNextMajor(from: "1.0.0"))
-]
-```
+1. Open your project in Xcode.
+2. Go to `File` -> `Add Packages Dependencies...`.
+3. In the search bar, paste the repository URL: `https://github.com/ooow/ScreenSizeSim.git`.
+4. Select the `main` branch as the version rule (if prompted).
+5. Click "Add Package" to integrate it into your project.
 
 ### Manual Installation
 
@@ -42,6 +48,18 @@ ScreenContainer(DeviceScreenSize.iPhone12ProMax) {
 ```
 
 This will simulate the screen size of an iPhone 12 Pro Max for the wrapped content.
+
+### Custom Screen Sizes
+
+If you need to simulate a screen size that is not predefined, you can specify a custom size:
+
+```swift
+import ScreenSizeSim
+
+ScreenContainer(customSize: CGSize(width: 375, height: 812)) {
+    YourContentView()
+}
+```
 
 ### Supported Devices
 
@@ -71,3 +89,7 @@ Special thanks to the open-source community for their contributions and inspirat
 ## Contact
 
 For any inquiries or issues, feel free to open an issue on GitHub or contact me at [app@mavdew.com](mailto:app@mavdew.com).
+
+Don't forget to give it a star! ⭐️
+
+![](https://komarev.com/ghpvc/?username=ooow&label=Views&color=gray)
