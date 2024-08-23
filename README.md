@@ -56,7 +56,7 @@ If you need to simulate a screen size that is not predefined, you can specify a 
 ```swift
 import ScreenSizeSim
 
-ScreenContainer(customSize: CGSize(width: 375, height: 812)) {
+ScreenContainer(CGSize(width: 375, height: 812)) {
     YourContentView()
 }
 ```
